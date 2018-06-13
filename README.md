@@ -11,9 +11,9 @@ This project was part of the course content for
 https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects
 
 
-## Commands to create workflow. Below text can be copy/pasted into a .sh file
-## if you feel the need to automate.
-## ============================
+Commands to create workflow. Below text can be copy/pasted into a .sh file
+if you feel the need to automate.
+============================
 
 #!/bin/bash
 
@@ -25,24 +25,24 @@ $ atom .      ## this is not needed but helps open the package.json file
 $ npm install boostrap@4.1.1 font-awesome jquery popper.js --save
 $ npm install gulp gulp-sass browser-sync --save-dev
 
-## Uncomment the next line only if gulp is not already installed globally
-## $ sudo npm install -g gulp-cli
+Uncomment the next line only if gulp is not already installed globally
+$ sudo npm install -g gulp-cli
 
 
 
-## ==================================
-## Once this has been done you can run gulp and it will
-## execute all the commands in gulpfile.js and compile and
-## move all the appropriate css and js files.
-## Then all that remains to do is delete the node-modules directory
-## and anything else leaving only
-## /src
-## gulpfile.js
-## package.json
+==================================
+Once this has been done you can run gulp and it will
+execute all the commands in gulpfile.js and compile and
+move all the appropriate css and js files.
+Then all that remains to do is delete the node-modules directory
+and anything else leaving only
+/src
+gulpfile.js
+package.json
 
-## which is all the files you need to start a new project
-## Copy/Paste those files into a new project folder to begin.
+which is all the files you need to start a new project
+Copy/Paste those files into a new project folder to begin.
 
-## Finally once pasted into project folder run
+Finally once pasted into project folder run
 $ npm install
 $ npm start
