@@ -1,7 +1,7 @@
 {
-  "name": "bs4_starter",
-  "version": "1.0.2",
-  "description": "Bootstrap 4 workflow",
+  "name": "Glozzom",
+  "version": "1.0.0",
+  "description": "Multi-page website theme",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
@@ -12,6 +12,7 @@
     "bootstrap": "4.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "lightbox2": "^2.10.0",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
