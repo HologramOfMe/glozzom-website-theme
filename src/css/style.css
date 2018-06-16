@@ -66,3 +66,20 @@ body {
   background-color: #d0d0d0; }
   #about .about-img {
     margin-top: -50px; }
+
+#services li {
+  text-align: left; }
+
+#services .fa {
+  color: #0ce835; }
+
+#faq a {
+  color: #c3c3c3;
+  text-decoration: none; }
+
+#faq .card {
+  border: #222 solid 2px; }
+
+#faq .card-body,
+#faq .card-header {
+  background: #333; }

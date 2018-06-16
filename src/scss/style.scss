@@ -86,8 +86,33 @@ body {
   }
 }
 
+#services {
 
+  li {
+    text-align: left;
+  }
 
+  .fa {
+    color: rgb(12, 232, 53);
+  }
+}
+
+#faq {
+
+  a {
+    color: rgb(195, 195, 195);
+    text-decoration: none;
+  }
+
+  .card {
+    border: #222 solid 2px;
+  }
+
+  .card-body,
+  .card-header {
+    background: #333;
+  }
+}
 
 
 
