@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Glozzom Sercices</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>The Latest News</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, explicabo?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BLOG SECTION -->
+  <section id="articles" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card-columns">
+            <div class="card">
+              <img src="https://source.unsplash.com/random/300x200" alt="random image" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Exciting Stuff</h4>
+                <small class="text-muted">by Jeff Bezos - 12.03.1995</small>
+                <hr>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tenetur magnam quibusdam adipisci soluta ex assumenda nihil totam hic rerum fuga, explicabo quaerat a aut, inventore recusandae! Quidem, veritatis dolorum.</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="card-blockquote card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo quam fuga, omnis quasi molestias.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">Someone Famous in <cite title="Time Magazine">Time Magazine</cite></small>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <img src="https://source.unsplash.com/random/300x201" alt="random image" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">A Funny Thing Happened...</h4>
+                <small class="text-muted">by Mick Jagger - 05.10.2003</small>
+                <hr>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tenetur magnam quibusdam adipisci soluta ex assumenda nihil totam hic rerum fuga, explicabo quaerat a aut, inventore recusandae! Quidem, veritatis dolorum.</p>
+              </div>
+            </div>
+            <div class="card p-3 bg-danger text-white">
+              <blockquote class="card-blockquote card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo quam fuga, omnis quasi molestias.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-white">Not So Famous in <cite title="The Third World">The Third World</cite></small>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <img src="https://source.unsplash.com/random/300x202" alt="random image" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">In Memory of Bob</h4>
+                <small class="text-muted">by Yo Mama - 23.04.2017</small>
+                <hr>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tenetur magnam quibusdam adipisci soluta ex assumenda nihil totam hic rerum fuga, explicabo quaerat a aut, inventore recusandae! Quidem, veritatis dolorum.</p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="card-blockquote card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo quam fuga, omnis quasi molestias.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">Martha Stewart in <cite title="5 Minute Recipes">5 Minute Recipes</cite></small>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="main-footer text-muted text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; Glozzom Pty. Ltd. <span id="year"></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
